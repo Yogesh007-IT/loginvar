@@ -1,0 +1,112 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+    /* background-image: url(/asset/);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    background-color: rgba(114, 186, 235, 0.822);
+}
+.logo1{
+height: 100px;
+width: 150px;
+}
+li{
+padding: 0px 40px;
+}
+.searchbox{
+width: 400px;
+padding: 0px 20px;
+}
+.fea{
+    height: 100px;
+    border-style: solid;
+}
+.fea-item{
+    width: 100vw;
+    height: 50px;
+}
+.mainrow{
+    padding: 5px 5px;
+}
+.col-1{
+    width: 600px;
+    height: 200px;
+    /* background-color: aqua; */
+    /* padding: 5px 10px; */
+    border-style: solid ;
+    box-shadow: 3px 3px 20px;
+    
+}
+.col-2{
+    width: 600px;
+    height: 200px;
+    /* background-color: aqua; */
+    /* padding: 5px 10px; */
+    border-style: solid ;
+    box-shadow: 3px 3px 20px;
+}
+.flag{
+    width: 70px;
+    height: 60px;
+}
+.int{
+    border-style: none;
+    color: white;
+    background-color: black;
+    height: 50px;
+}
+.icc{
+    border-style: none;
+    /* color: white; */
+    /* background-color: black; */
+    /* height: 50px; */
+    font-weight: 500;
+}
+.col-1:hover{
+    background-color: black;
+    color: white;
+}
+.col-2:hover{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.navbar{
+    background-color: #023047;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:500px) {
+    
+    .col-1{
+        height: 250px;
+    }
+    .col-2{
+        height: 250px;
+    }
+}
